@@ -14,18 +14,27 @@ body {
     background: #1C1C1C;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .password-container {
     display: flex;
+    justify-content: space-around;
     position: absolute;
     width: 550px;
     height: 550px;
-    left: 62px;
+    /*left: 62px;*/
     top: 64px;
     background: #1F2937;
     border-radius: 5px;
     /*justify-content: center;
     align-content: center;*/
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .heading {
@@ -118,3 +127,8 @@ body {
     color: #55F991;
 }
 
+@media (min-width: 400px) {
+    .flex-container {
+        width: 85%;
+    }
+}
