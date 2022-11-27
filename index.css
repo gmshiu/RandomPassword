@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     align-items: center;
     /*position: absolute;*/
-    width: 1420px;
+    width: 100%;
     height: 697.92px;
     background: #1C1C1C;
 }
@@ -127,8 +127,8 @@ body {
     color: #55F991;
 }
 
-@media (min-width: 400px) {
-    .flex-container {
+@media (min-width: 350px) {
+    .container {
         width: 85%;
     }
 }
