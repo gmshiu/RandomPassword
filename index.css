@@ -128,7 +128,13 @@ body {
 }
 
 @media (min-width: 400px) {
-    .container {
+    .password-container {
         width: 85%;
+        height: 850px;
     }
+
+    /*.generate-btn {
+        width: 50%;
+        font-size: large;
+    } */
 }
